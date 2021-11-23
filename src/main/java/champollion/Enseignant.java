@@ -1,8 +1,10 @@
 package champollion;
+import java.util.*;
 
 public class Enseignant extends Personne {
 
     // TODO : rajouter les autres méthodes présentes dans le diagramme UML
+    private List<ServicePrevu> listeServ=new ArrayList();
 
     public Enseignant(String nom, String email) {
         super(nom, email);
@@ -16,7 +18,7 @@ public class Enseignant extends Personne {
      * @return le nombre total d'heures "équivalent TD" prévues pour cet enseignant, arrondi à l'entier le plus proche
      *
      */
-    public int heuresPrevues() {
+   /* public int heuresPrevues() {
         // TODO: Implémenter cette méthode
         throw new UnsupportedOperationException("Pas encore implémenté");
     }
@@ -30,7 +32,7 @@ public class Enseignant extends Personne {
      * @return le nombre total d'heures "équivalent TD" prévues pour cet enseignant, arrondi à l'entier le plus proche
      *
      */
-    public int heuresPrevuesPourUE(UE ue) {
+   /* public int heuresPrevuesPourUE(UE ue) {
         // TODO: Implémenter cette méthode
         throw new UnsupportedOperationException("Pas encore implémenté");
     }
@@ -43,9 +45,12 @@ public class Enseignant extends Personne {
      * @param volumeTD le volume d'heures de TD
      * @param volumeTP le volume d'heures de TP
      */
-    public void ajouteEnseignement(UE ue, int volumeCM, int volumeTD, int volumeTP) {
+   /* public void ajouteEnseignement(UE ue, int volumeCM, int volumeTD, int volumeTP) {
         // TODO: Implémenter cette méthode
         throw new UnsupportedOperationException("Pas encore implémenté");
     }
 
 }
+
+
+*/}
