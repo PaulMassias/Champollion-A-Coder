@@ -59,7 +59,6 @@ public class ChampollionJUnitTest {
             listeServ=untel.getEnseignements();
             ServicePrevu SP=listeServ.get(0);
             UE ue=SP.getUe();
-            assertnEq
             assertEquals("UML",ue.getIntitule(),"L'UE du service doit être celle ajoutée");
             assertEquals(1,listeServ.size(),"La liste doit contenir un seul enseignement");
             assertEquals(10,untel.heuresPrevues(),"L'enseignant doit avoir un équivalent TD de 10 heures");
