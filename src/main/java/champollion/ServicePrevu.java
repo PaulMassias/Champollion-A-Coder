@@ -14,5 +14,30 @@ public class ServicePrevu {
         prof=professeur;
         UEconcerné=matière;
     }
+    
+    
+    public ServicePrevu(int CM,int TD,int TP, UE ue){
+        this.volume_CM=CM;
+        this.volume_TD=TD;
+        this.volume_TP=TP;
+        this.UEconcerné=ue;
+    }
+    
+    
+    public int getVolumeCM(){
+        return volume_CM;
+    }
+    
+    public int getVolumeTD(){
+    return volume_TD;
+    }
+    
+    public int getVolumeTP(){
+        return volume_TP;
+    }
+    
+    public UE getUe(){
+        return UEconcerné;
+    }
 
 }
